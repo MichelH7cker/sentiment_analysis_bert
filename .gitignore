@@ -1,5 +1,11 @@
+# dot env
+.env
+
 # VS code
 .vscode
+
+# dataset is too big to up git
+dataset/training.1600000.processed.noemoticon.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
