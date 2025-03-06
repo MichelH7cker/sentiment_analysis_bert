@@ -3,10 +3,10 @@ import torch
 import sys
 
 # Load Model
-modelo_path = "model_bert"
+model_path = "h7cker/model_bert_classification"
 print("Loading model...")
-model = BertForSequenceClassification.from_pretrained(modelo_path).eval()
-tokenizer = BertTokenizer.from_pretrained(modelo_path)
+model = BertForSequenceClassification.from_pretrained(model_path).eval()
+tokenizer = BertTokenizer.from_pretrained(model_path)
 
 # Function to Predict Sentiment
 def predict_sentiment(text):
